@@ -36,6 +36,19 @@ Example output
 
     Took 29.925333 seconds
 
+Test::Unit
+----------
+
+To run Test::Unit tests, use the following task:
+
+    rake test:parallel
+
+instead of
+
+    rake spec:parallel
+
+This includes the ability to specify more than two parallel environments.
+
 TIPS
 ====
  - `./script/generate rspec` if you are running rspec from gems (this plugin uses script/spec which may fail if rspec files are outdated)
@@ -52,6 +65,7 @@ inspired by [pivotal labs](http://pivotallabs.com/users/miked/blog/articles/849-
 
 ###Contributors
  - [Joakim Kolsjö](http://www.rubyblocks.se) -- joakim.kolsjo<$at$>gmail.com
+ - [Jason Morrison](http://jayunit.net) -- jason.p.morrison<$at$>gmail.com
 
 [Michael Grosser](http://pragmatig.wordpress.com)  
 grosser.michael@gmail.com  
