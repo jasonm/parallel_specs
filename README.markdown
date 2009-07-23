@@ -1,7 +1,13 @@
-Rake tasks to run specs in parallel, to use multiple CPUs and speedup test runtime.
+Rake tasks to run specs and tests in parallel, to use multiple CPUs and speedup test runtime.
 
 Setup
 =====
+
+For this fork (to be removed before pulling upstream):
+
+    script/plugin install git://github.com/jasonm/parallel_specs.git
+
+For the upstream plugin:
 
     script/plugin install git://github.com/grosser/parallel_specs.git
 
